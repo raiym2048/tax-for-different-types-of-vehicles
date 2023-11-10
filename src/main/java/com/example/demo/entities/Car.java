@@ -8,6 +8,7 @@ public class Car extends Vehicle {
     }
 
     public int calculateTax(VehicleType vehicleType) {
+        //Nurdöölöt
         return 18*this.getEngineCapacity()* this.calculateYearMultiplier();
     }
 }
